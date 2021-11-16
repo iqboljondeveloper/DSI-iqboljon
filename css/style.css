@@ -1,6 +1,11 @@
 *{
     box-sizing: border-box;
 }
+*:focus
+{
+    outline: 2px dotted #EE4248;
+outline-offset: 2px;
+}
 body{
     padding: 0;
     margin: 0;
@@ -9,10 +14,12 @@ body{
 }
 .container
 {
-    max-width: 1120px;
+    max-width: 1180px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
    
 }
 /* MAIN HEADER */
@@ -127,7 +134,8 @@ border-radius: 4px;
 .section-page
 {
     background-color: #F6F6F6;
-
+padding-top: 55px;
+padding-bottom: 60px;
 }
 .page-text
 {
