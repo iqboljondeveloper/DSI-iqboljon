@@ -75,9 +75,20 @@ margin-left: 50px;
     display: flex;
     list-style: none;
 }
+
 .nav-iconitem:not(:first-child)
 {
     margin-left: 24px;
+}
+.nav-icon-img:hover
+{
+opacity: 0.8;
+
+}
+.nav-icon-img:active
+{
+opacity: 0.6;
+
 }
 /* main section1 */
 
